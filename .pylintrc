@@ -1,0 +1,22 @@
+[MASTER]
+ignore-paths=^tests/.*$,
+
+[MESSAGES CONTROL]
+disable=C0114, # Missing module docstring
+
+[FORMAT]
+max-line-length=100  # Black takes care of line length
+
+[DESIGN]
+max-parents=15
+
+[BASIC]
+
+# Limit max function arguments
+max-args=6
+
+[TYPECHECK]
+# List of class names for which member attributes should not be checked.
+ignored-classes=Exception
+
+# List of module names for which member attributes should not be checked.
